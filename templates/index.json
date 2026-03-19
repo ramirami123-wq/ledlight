@@ -1,0 +1,300 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "fading_images_gEXzF6": {
+      "type": "fading-images",
+      "blocks": {
+        "image_UBqpcp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/hero2_a831d7a5-2a58-46c0-a11e-9e4a927686f9.jpg",
+            "focal_point": "center center",
+            "slide_title1": "Unviel Your",
+            "slide_title2": "Face Care Potential"
+          }
+        },
+        "image_YHMVHX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/hero1_efa72a6d-db46-4323-9baf-24c2ebd66a83.jpg",
+            "focal_point": "center center",
+            "slide_title1": "Revitalize Your Hair Routine",
+            "slide_title2": "Shop Premium Styling Tools"
+          }
+        }
+      },
+      "block_order": [
+        "image_UBqpcp",
+        "image_YHMVHX"
+      ],
+      "name": "t:sections.fading-images.presets.fading_image_hero.name",
+      "settings": {
+        "title_lines": "2",
+        "title_font": "body",
+        "title_size": 45,
+        "title_color": "#ffffff",
+        "title_bg_color": "rgba(0,0,0,0)",
+        "text_align": "vertical-center horizontal-center",
+        "link": "",
+        "slide_speed": 5,
+        "color_overlay": "#000000",
+        "color_overlay_opacity": 30,
+        "desktop_height": "650px",
+        "mobile_height": "auto"
+      }
+    },
+    "featured_collection_eLgELy": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.featured_collection.name",
+      "settings": {
+        "title": "Featured collection",
+        "home_featured_products": "all-product",
+        "per_row": 4,
+        "rows": 1,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "fading_images_mnQWUR": {
+      "type": "fading-images",
+      "blocks": {
+        "image_aAdC76": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_0849_ffd10741-d190-4a7c-9b4a-241812c36c21.jpg",
+            "focal_point": "center center",
+            "slide_title1": "",
+            "slide_title2": ""
+          }
+        },
+        "image_EJdEwY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_0847_e99b308d-20bd-4044-9046-27d1c1a32e7a.jpg",
+            "focal_point": "center center",
+            "slide_title1": "",
+            "slide_title2": ""
+          }
+        },
+        "image_63CF43": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_0850.jpg",
+            "focal_point": "bottom center",
+            "slide_title1": "",
+            "slide_title2": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_aAdC76",
+        "image_EJdEwY",
+        "image_63CF43"
+      ],
+      "name": "t:sections.fading-images.presets.fading_image_hero.name",
+      "settings": {
+        "title_lines": "2",
+        "title_font": "body",
+        "title_size": 45,
+        "title_color": "#ffffff",
+        "title_bg_color": "rgba(0,0,0,0)",
+        "text_align": "vertical-center horizontal-center",
+        "link": "",
+        "slide_speed": 5,
+        "color_overlay": "#000000",
+        "color_overlay_opacity": 30,
+        "desktop_height": "650px",
+        "mobile_height": "auto"
+      }
+    },
+    "blocks_R7BnNx": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_3908ddc_XEX9Ba": {
+          "type": "ai_gen_block_3908ddc",
+          "settings": {
+            "text_1": "solva",
+            "text_2": "solva",
+            "text_3": "solva",
+            "text_4": "",
+            "text_5": "",
+            "separator": "★",
+            "scroll_speed": 1,
+            "direction": "left",
+            "background_color": "#b813c1",
+            "text_color": "#ffffff",
+            "separator_color": "#ffffff",
+            "font_size": 18,
+            "font_weight": "500",
+            "text_transform": false,
+            "padding_vertical": 16,
+            "item_spacing": 40
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_3908ddc_XEX9Ba"
+      ],
+      "name": "Marquee",
+      "settings": {}
+    },
+    "rich_text_icmLMW": {
+      "type": "rich-text",
+      "blocks": {
+        "page_yh9zjR": {
+          "type": "page",
+          "settings": {
+            "page_text": "about-us"
+          }
+        }
+      },
+      "block_order": [
+        "page_yh9zjR"
+      ],
+      "name": "t:sections.rich-text.presets.rich_text.name",
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "blocks_AAEAd4": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_3908ddc_HUMMjT": {
+          "type": "ai_gen_block_3908ddc",
+          "settings": {
+            "text_1": "solva",
+            "text_2": "solva",
+            "text_3": "solva",
+            "text_4": "",
+            "text_5": "",
+            "separator": "★",
+            "scroll_speed": 1,
+            "direction": "left",
+            "background_color": "#b813c1",
+            "text_color": "#ffffff",
+            "separator_color": "#ffffff",
+            "font_size": 30,
+            "font_weight": "500",
+            "text_transform": false,
+            "padding_vertical": 8,
+            "item_spacing": 30
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_3908ddc_HUMMjT"
+      ],
+      "name": "Marquee",
+      "settings": {}
+    },
+    "faq_hd9KM6": {
+      "type": "faq",
+      "blocks": {
+        "question_pYKp7U": {
+          "type": "question",
+          "settings": {
+            "title": "What is Solva?",
+            "text": "<p>Solva is a beauty brand focused on creating smart, portable, and easy-to-use hair styling tools designed for modern lifestyles.<br/></p>"
+          }
+        },
+        "question_DFUDT9": {
+          "type": "question",
+          "settings": {
+            "title": "Where are Solva products designed?",
+            "text": "<p>Solva products are thoughtfully designed to combine performance, convenience, and style for everyday use.</p>"
+          }
+        },
+        "question_dyVGRR": {
+          "type": "question",
+          "settings": {
+            "title": "Are Solva products safe to use?",
+            "text": "<p>Yes, safety is a priority. Our products are designed with user-friendly and protective features to ensure comfortable styling.</p>"
+          }
+        },
+        "question_nVnAWr": {
+          "type": "question",
+          "settings": {
+            "title": "How can I stay updated on new products?",
+            "text": "<p>Follow Solva on social media or subscribe to updates from your preferred shopping platform to stay informed about new launches and offers.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_pYKp7U",
+        "question_DFUDT9",
+        "question_dyVGRR",
+        "question_nVnAWr"
+      ],
+      "name": "t:sections.faq.presets.faq.name",
+      "settings": {
+        "title": "FAQs"
+      }
+    },
+    "text_with_icons_jYRQxY": {
+      "type": "text-with-icons",
+      "blocks": {
+        "text_block_B7LpAj": {
+          "type": "text_block",
+          "settings": {
+            "icon": "truck",
+            "title": "Delivery  All Over Lebanon",
+            "text": ""
+          }
+        },
+        "text_block_NkDaVz": {
+          "type": "text_block",
+          "settings": {
+            "icon": "chat",
+            "title": "24/7 support",
+            "text": ""
+          }
+        },
+        "text_block_WQmyaC": {
+          "type": "text_block",
+          "settings": {
+            "icon": "sales-tag",
+            "title": "100 % safe",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_B7LpAj",
+        "text_block_NkDaVz",
+        "text_block_WQmyaC"
+      ],
+      "name": "Text columns with icons",
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "desktop_columns_per_row": 3,
+        "icon_color": "#000000",
+        "button_label": "",
+        "button_link": "",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "fading_images_gEXzF6",
+    "featured_collection_eLgELy",
+    "fading_images_mnQWUR",
+    "blocks_R7BnNx",
+    "rich_text_icmLMW",
+    "blocks_AAEAd4",
+    "faq_hd9KM6",
+    "text_with_icons_jYRQxY"
+  ]
+}
