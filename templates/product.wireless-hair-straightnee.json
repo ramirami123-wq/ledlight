@@ -18,6 +18,12 @@
             "code": "<style>\n.star-review-wrapper {\ndisplay: flex;\nalign-items: center;\ngap: 8px;\nflex-shrink: 0;\n}\n\n.star-icons svg {\nwidth: 20px;\nheight: 20px;\nfill: black; /* Your deep red color */\n}\n\n.review-text {\nfont-size: 16px;\nfont-weight: 500;\ncolor: #333;\nwhite-space: nowrap;\n}\n\n@media (max-width: 480px) {\n.star-review-wrapper {\nflex-direction: row;\njustify-content: center;\n}\n\n```\n.review-text {\n  font-size: 15px;\n}\n```\n\n}\n</style>\n\n<div class=\"star-review-wrapper\">\n<div class=\"star-icons\">\n<!-- 5 Rounded Stars -->\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n</div>\n<div class=\"review-text\">\n<strong>5</strong> by <strong>124+</strong> Customers\n</div>\n</div>"
           }
         },
+        "custom_knFWVE": {
+          "type": "custom",
+          "settings": {
+            "code": "<section class=\"sale-timer\" aria-label=\"Sale countdown timer\">\n  <style>\n    .sale-timer{\n      width:100%;\n      padding:22px 12px;\n      display:flex;\n      justify-content:center;\n      background:##ff85d0;\n      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;\n    }\n    .sale-timer__wrap{\n      text-align:center;\n    }\n    .sale-timer__label{\n      font-size:24px;\n      font-weight:500;\n      color:#111;\n      margin:0 0 14px 0;\n      line-height:1.1;\n    }\n\n    .sale-timer__row{\n      display:flex;\n      align-items:center;\n      justify-content:center;\n      gap:10px;\n    }\n\n    .sale-timer__box{\n      width:88px;\n      height:68px;\n      background:BLACK;\n      color:#fff;\n      border-radius:6px;\n      display:flex;\n      align-items:center;\n      justify-content:center;\n      font-size:34px;\n      font-weight:700;\n      letter-spacing:1px;\n      font-variant-numeric: tabular-nums;\n    }\n\n    .sale-timer__colon{\n      font-size:32px;\n      font-weight:700;\n      color:#ff2a2a;\n      line-height:1;\n      transform: translateY(-1px);\n      user-select:none;\n    }\n\n    @media (max-width:420px){\n      .sale-timer__label{ font-size:20px; }\n      .sale-timer__box{ width:72px; height:58px; font-size:30px; }\n      .sale-timer__colon{ font-size:28px; }\n      .sale-timer__row{ gap:8px; }\n    }\n  </style>\n\n  <div class=\"sale-timer__wrap\">\n    <div class=\"sale-timer__label\">Hurry! Sale ends in</div>\n\n    <div class=\"sale-timer__row\" role=\"timer\" aria-live=\"polite\">\n      <div class=\"sale-timer__box\" id=\"st-hours\">00</div>\n      <div class=\"sale-timer__colon\">:</div>\n      <div class=\"sale-timer__box\" id=\"st-mins\">00</div>\n      <div class=\"sale-timer__colon\">:</div>\n      <div class=\"sale-timer__box\" id=\"st-secs\">00</div>\n    </div>\n  </div>\n\n  <script>\n    (function () {\n      const durationHours = 12; // change if needed\n      const endAt = Date.now() + durationHours * 60 * 60 * 1000;\n\n      const h = document.getElementById(\"st-hours\");\n      const m = document.getElementById(\"st-mins\");\n      const s = document.getElementById(\"st-secs\");\n\n      const pad = n => String(n).padStart(2, \"0\");\n\n      function update(){\n        let diff = endAt - Date.now();\n        if(diff < 0) diff = 0;\n\n        const total = Math.floor(diff / 1000);\n        h.textContent = pad(Math.floor(total / 3600));\n        m.textContent = pad(Math.floor((total % 3600) / 60));\n        s.textContent = pad(total % 60);\n\n        if(diff === 0) clearInterval(timer);\n      }\n\n      update();\n      const timer = setInterval(update, 1000);\n    })();\n  </script>\n</section>"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {}
@@ -25,7 +31,7 @@
         "custom_Ytf84X": {
           "type": "custom",
           "settings": {
-            "code": "<div style=\"padding: 12px; text-align: left; background-color: #f9f9f9; font-size: 15px; border-radius: 12px; margin-top: 10px; margin-bottom: 10px; line-height: 1.6;\">\n\n<span style=\"font-weight: bold;\">⚡ Fast 30-Second Heating</span> – Advanced heating technology warms up in just <strong>30 seconds</strong>, so you can style your hair quickly without wasting time.<br><br>\n\n<span style=\"font-weight: bold;\">🌡️ 3 Adjustable Temperature Speeds</span> – Easily control the heat level to suit your hair type: <strong>soft, normal, or thick</strong> for customized styling.<br><br>\n\n<span style=\"font-weight: bold;\">✨ Smooth & Effortless Styling</span> – Designed to glide through your hair smoothly, helping you achieve a sleek and polished look with minimal effort.<br><br>\n\n<span style=\"font-weight: bold;\">🛡️ Safe & Hair-Friendly</span> – Provides consistent heat that helps protect your hair while delivering beautiful, damage-free results every time.\n\n</div>"
+            "code": "<div style=\"padding: 12px; text-align: left; background-color: #f9f9f9; font-size: 15px; border-radius: 12px; margin-top: 10px; margin-bottom: 10px; line-height: 1.6;\">\n<span style=\"font-weight: bold;\">🔍 Clear, Effortless Reading</span> – Enjoy enlarged, easy-to-read text with built-in magnification that reduces eye strain.<br><br>\n<span style=\"font-weight: bold;\">💡 Bright LED Illumination</span> – Read comfortably anytime with even, glare-free lighting that enhances visibility in low light.<br><br>\n<span style=\"font-weight: bold;\">📖 Lightweight & Portable</span> – Slim and easy to carry, perfect for reading books, newspapers, or documents anywhere.\n</div>"
           }
         },
         "separator": {
@@ -50,7 +56,7 @@
         "custom_MDraJF": {
           "type": "custom",
           "settings": {
-            "code": "<div style=\"padding: 12px; text-align: left; background-color: #f5f5f5; font-size: 15px; border-radius: 13px; margin-top: 12px; margin-bottom: 12px; display: flex; align-items: center;\"> \n    <span class=\"em\" style=\"margin-right: 8px;\">\n        <svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 -960 960 960\" width=\"24px\" fill=\"#545454\">\n            <path d=\"M240-160q-50 0-85-35t-35-85H40v-440q0-33 23.5-56.5T120-800h560v160h120l120 160v200h-80q0 50-35 85t-85 35q-50 0-85-35t-35-85H360q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T280-280q0-17-11.5-28.5T240-320q-17 0-28.5 11.5T200-280q0 17 11.5 28.5T240-240ZM120-360h32q17-18 39-29t49-11q27 0 49 11t39 29h272v-360H120v360Zm600 120q17 0 28.5-11.5T760-280q0-17-11.5-28.5T720-320q-17 0-28.5 11.5T680-280q0 17 11.5 28.5T720-240Zm-40-200h170l-90-120h-80v120ZM360-540Z\"/>\n        </svg> \n    </span>\n    <span>Order now to receive by <span id=\"delivery-dates\" style=\"font-weight: bold;\"></span></span>\n</div>\n\n<script>\n    document.addEventListener('DOMContentLoaded', function() {\n        var currentDate = new Date();\n        var minDeliveryDate = new Date();\n        minDeliveryDate.setDate(currentDate.getDate() + 2);\n\n        var maxDeliveryDate = new Date();\n        maxDeliveryDate.setDate(currentDate.getDate() + 3);\n\n        var formatDate = function(date) {\n            var dayNames = [\"Sunday\", \"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\", \"Friday\", \"Saturday\"];\n            var monthNames = [\"January\", \"February\", \"March\", \"April\", \"May\", \"June\",\n                \"July\", \"August\", \"September\", \"October\", \"November\", \"December\"\n            ];\n            var day = date.getDate();\n            var month = monthNames[date.getMonth()];\n            var weekday = dayNames[date.getDay()];\n            return weekday + \", \" + month + \" \" + day;\n        };\n\n        var deliverySpan = document.getElementById('delivery-dates');\n        deliverySpan.textContent = formatDate(minDeliveryDate) + ' – ' + formatDate(maxDeliveryDate);\n    });\n</script>"
+            "code": "<div style=\"padding: 12px; text-align: left; background-color: #f5f5f5; font-size: 15px; border-radius: 13px; margin-top: 12px; margin-bottom: 12px; display: flex; align-items: center;\"> \n    <span class=\"em\" style=\"margin-right: 8px;\">\n        <svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 -960 960 960\" width=\"24px\" fill=\"#545454\">\n            <path d=\"M240-160q-50 0-85-35t-35-85H40v-440q0-33 23.5-56.5T120-800h560v160h120l120 160v200h-80q0 50-35 85t-85 35q-50 0-85-35t-35-85H360q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T280-280q0-17-11.5-28.5T240-320q-17 0-28.5 11.5T200-280q0 17 11.5 28.5T240-240ZM120-360h32q17-18 39-29t49-11q27 0 49 11t39 29h272v-360H120v360Zm600 120q17 0 28.5-11.5T760-280q0-17-11.5-28.5T720-320q-17 0-28.5 11.5T680-280q0 17 11.5 28.5T720-240Zm-40-200h170l-90-120h-80v120ZM360-540Z\"/>\n        </svg> \n    </span>\n    <span>Order now to receive in <span id=\"delivery-dates\" style=\"font-weight: bold;\"></span></span>\n</div>\n\n<script>\n    document.addEventListener('DOMContentLoaded', function() {\n        var currentDate = new Date();\n        var minDeliveryDate = new Date();\n        minDeliveryDate.setDate(currentDate.getDate() + 2); // 2 day from now\n\n        var maxDeliveryDate = new Date();\n        maxDeliveryDate.setDate(currentDate.getDate() + 3); // 3 days from now\n\n        var formatDate = function(date) {\n            var monthNames = [\"January\", \"February\", \"March\", \"April\", \"May\", \"June\",\n              \"July\", \"August\", \"September\", \"October\", \"November\", \"December\"\n            ];\n            var day = date.getDate();\n            var monthIndex = date.getMonth();\n            return monthNames[monthIndex] + \" \" + day;\n        };\n\n        var deliverySpan = document.getElementById('delivery-dates');\n        deliverySpan.textContent = formatDate(minDeliveryDate) + ' - ' + formatDate(maxDeliveryDate);\n    });\n</script>"
           }
         },
         "description": {
@@ -62,6 +68,7 @@
       },
       "block_order": [
         "custom_Q7AhEC",
+        "custom_knFWVE",
         "price",
         "custom_Ytf84X",
         "separator",
@@ -105,11 +112,11 @@
       "type": "text-and-image",
       "name": "t:sections.text-and-image.presets.image_with_text.name",
       "settings": {
-        "image": "shopify://shop_images/ECB689B3-0DD2-4430-A306-E631E98BE127.jpg",
+        "image": "shopify://shop_images/b2_30e5f4b5-de97-498b-b49b-d37499126f21.png",
         "image_width": 700,
         "subtitle": "",
-        "title": "Pocket-Sized Power for Perfect Hair",
-        "text": "<p><br/>Achieve sleek, salon-quality hair wherever you are with this mini portable hair straightener. Designed for convenience and performance, it heats quickly and fits easily into your bag, making it perfect for travel, school, or everyday touch-ups.<br/><br/></p>",
+        "title": "Enhanced Reading Experience",
+        "text": "<p>Enjoy clear, magnified text with built-in LED lighting that makes reading easier in any environment. It helps reduce eye strain and allows you to read comfortably for longer periods.<br/><br/></p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
@@ -124,15 +131,15 @@
         "ai_gen_block_3908ddc_RNy3Lb": {
           "type": "ai_gen_block_3908ddc",
           "settings": {
-            "text_1": "Style your hair anytime, anywhere—beauty that fits in your palm",
-            "text_2": "Style your hair anytime, anywhere—beauty that fits in your palm",
-            "text_3": "Style your hair anytime, anywhere—beauty that fits in your palm",
-            "text_4": "Style your hair anytime, anywhere—beauty that fits in your palm",
-            "text_5": "",
-            "separator": "",
+            "text_1": "Reading should feel effortless — this makes every word clear and comfortable.",
+            "text_2": "Reading should feel effortless — this makes every word clear and comfortable.",
+            "text_3": "Reading should feel effortless — this makes every word clear and comfortable.",
+            "text_4": "Reading should feel effortless — this makes every word clear and comfortable.",
+            "text_5": "Reading should feel effortless — this makes every word clear and comfortable.",
+            "separator": "Reading should feel effortless — this makes every word clear and comfortable.",
             "scroll_speed": 1,
             "direction": "left",
-            "background_color": "#b813c1",
+            "background_color": "#1c1d1d",
             "text_color": "#ffffff",
             "separator_color": "#ffffff",
             "font_size": 18,
@@ -154,11 +161,11 @@
       "type": "text-and-image",
       "name": "t:sections.text-and-image.presets.image_with_text.name",
       "settings": {
-        "image": "shopify://shop_images/5C834018-4F86-4569-A808-4D21E1718D58.jpg",
+        "image": "shopify://shop_images/b1_d3b51754-01e1-43f2-b90e-d135a667ab25.png",
         "image_width": 700,
         "subtitle": "",
-        "title": "Effortless Styling On the Go",
-        "text": "<p>Say goodbye to bad hair days with a compact tool that delivers smooth, frizz-free results in minutes. Its lightweight design and easy handling make styling simple, so you can look your best anytime, anywhere.</p>",
+        "title": "Why You'll Love It",
+        "text": "<p><br/>Lightweight and easy to use, it’s perfect for reading books, newspapers, or documents anytime, anywhere. Whether at home or on the go, it gives you a clearer, brighter reading experience.<br/><br/></p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
@@ -174,14 +181,14 @@
           "type": "ai_gen_block_3908ddc",
           "settings": {
             "text_1": "Small in size, powerful in style—your perfect hair companion.”",
-            "text_2": "Small in size, powerful in style—your perfect hair companion.”",
-            "text_3": "Small in size, powerful in style—your perfect hair companion.”",
-            "text_4": "Small in size, powerful in style—your perfect hair companion.”",
+            "text_2": "A brighter, clearer way to enjoy your favorite books anytime, anywhere.",
+            "text_3": "A brighter, clearer way to enjoy your favorite books anytime, anywhere.",
+            "text_4": "A brighter, clearer way to enjoy your favorite books anytime, anywhere.",
             "text_5": "",
             "separator": "",
             "scroll_speed": 1,
             "direction": "left",
-            "background_color": "#b813c1",
+            "background_color": "#1c1d1d",
             "text_color": "#ffffff",
             "separator_color": "#ffffff",
             "font_size": 18,
@@ -209,16 +216,16 @@
             "feature_column_label": "Features",
             "us_column_label": "Us",
             "others_column_label": "Others",
-            "feature_1": "Compact & Travel-Friendly",
+            "feature_1": "Clear magnification for easy, comfortable reading",
             "feature_1_us": "check",
             "feature_1_others": "cross",
-            "feature_2": "Fast Heating Technology",
+            "feature_2": "Carefully selected, high-quality products",
             "feature_2_us": "check",
             "feature_2_others": "cross",
-            "feature_3": "Gentle on Hair",
+            "feature_3": "Smooth and secure shopping experience",
             "feature_3_us": "check",
             "feature_3_others": "cross",
-            "feature_4": "Affordable Quality",
+            "feature_4": "Built-in LED lighting for use in any environment",
             "feature_4_us": "check",
             "feature_4_others": "cross",
             "feature_5": "",
@@ -248,9 +255,9 @@
             "table_background": "#ffffff",
             "header_background": "#f5f5f5",
             "header_text_color": "#000000",
-            "us_column_background": "#b813c1",
+            "us_column_background": "#1c1d1d",
             "us_column_text_color": "#ffffff",
-            "us_cell_background": "#f9f0fa",
+            "us_cell_background": "#1c1d1d",
             "text_color": "#000000",
             "border_color": "#e0e0e0",
             "checkmark_color": "#00a651",
@@ -270,29 +277,29 @@
         "question_A4WHBe": {
           "type": "question",
           "settings": {
-            "title": "How do I use the Solva Mini Hair Straightener Brush?",
-            "text": "<p>Simply plug in the device, select your preferred heat level, wait for it to heat up, and gently brush through dry hair section by section.</p>"
+            "title": "How does the product work?",
+            "text": "<p>\\It uses built-in magnification and LED lighting to make text clearer and easier to read, reducing eye strain.</p>"
           }
         },
         "question_gPiKbW": {
           "type": "question",
           "settings": {
-            "title": "Does it work for thick or curly hair?",
-            "text": "<p>Yes, the adjustable heat settings make it suitable for fine, normal, and thick hair types. For very curly hair, you may need to brush slowly through smaller sections.</p>"
+            "title": "Is it suitable for all ages?",
+            "text": "<p><br/>Yes! It’s perfect for anyone who wants a more comfortable reading experience, especially for small print.<br/><br/></p>"
           }
         },
         "question_U4BcYJ": {
           "type": "question",
           "settings": {
-            "title": "Is it safe for daily use?",
-            "text": "<p>Yes, when used properly and with appropriate heat settings, it is safe for regular styling.</p>"
+            "title": "Can I use it with any book?",
+            "text": "<p>Absolutely! It works with books, newspapers, magazines, and even documents.</p>"
           }
         },
         "question_t9t4B3": {
           "type": "question",
           "settings": {
-            "title": "Does it reduce frizz?",
-            "text": "<p>Yes, it helps smooth flyaways and control frizz, leaving your hair looking sleek and polished.</p>"
+            "title": "Is it portable?",
+            "text": "<p>Yes, it’s lightweight and compact, making it easy to carry and use anywhere.</p>"
           }
         }
       },
@@ -309,20 +316,6 @@
     },
     "1772548012e975415b": {
       "type": "apps",
-      "blocks": {
-        "judge_me_reviews_review_widget_twzQ3D": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "review_data": "real_data",
-            "max_width": 1200,
-            "show_shop_reviews": false,
-            "empty_state": "empty_widget"
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_review_widget_twzQ3D"
-      ],
       "settings": {
         "full_width": false,
         "space_around": true
