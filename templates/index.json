@@ -12,92 +12,18 @@
     "fading_images_gEXzF6": {
       "type": "fading-images",
       "blocks": {
-        "image_UBqpcp": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/hero2_a831d7a5-2a58-46c0-a11e-9e4a927686f9.jpg",
-            "focal_point": "center center",
-            "slide_title1": "Unviel Your",
-            "slide_title2": "Face Care Potential"
-          }
-        },
         "image_YHMVHX": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/hero1_efa72a6d-db46-4323-9baf-24c2ebd66a83.jpg",
+            "image": "shopify://shop_images/IMG_3100_-_Majed_Hammoud_2.jpg",
             "focal_point": "center center",
-            "slide_title1": "Revitalize Your Hair Routine",
-            "slide_title2": "Shop Premium Styling Tools"
+            "slide_title1": "",
+            "slide_title2": ""
           }
         }
       },
       "block_order": [
-        "image_UBqpcp",
         "image_YHMVHX"
-      ],
-      "name": "t:sections.fading-images.presets.fading_image_hero.name",
-      "settings": {
-        "title_lines": "2",
-        "title_font": "body",
-        "title_size": 45,
-        "title_color": "#ffffff",
-        "title_bg_color": "rgba(0,0,0,0)",
-        "text_align": "vertical-center horizontal-center",
-        "link": "",
-        "slide_speed": 5,
-        "color_overlay": "#000000",
-        "color_overlay_opacity": 30,
-        "desktop_height": "650px",
-        "mobile_height": "auto"
-      }
-    },
-    "featured_collection_eLgELy": {
-      "type": "featured-collection",
-      "name": "t:sections.featured-collection.presets.featured_collection.name",
-      "settings": {
-        "title": "Featured collection",
-        "home_featured_products": "all-product",
-        "per_row": 4,
-        "rows": 1,
-        "view_all": true,
-        "divider": false
-      }
-    },
-    "fading_images_mnQWUR": {
-      "type": "fading-images",
-      "blocks": {
-        "image_aAdC76": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/IMG_0849_ffd10741-d190-4a7c-9b4a-241812c36c21.jpg",
-            "focal_point": "center center",
-            "slide_title1": "",
-            "slide_title2": ""
-          }
-        },
-        "image_EJdEwY": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/IMG_0847_e99b308d-20bd-4044-9046-27d1c1a32e7a.jpg",
-            "focal_point": "center center",
-            "slide_title1": "",
-            "slide_title2": ""
-          }
-        },
-        "image_63CF43": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/IMG_0850.jpg",
-            "focal_point": "bottom center",
-            "slide_title1": "",
-            "slide_title2": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_aAdC76",
-        "image_EJdEwY",
-        "image_63CF43"
       ],
       "name": "t:sections.fading-images.presets.fading_image_hero.name",
       "settings": {
@@ -121,15 +47,15 @@
         "ai_gen_block_3908ddc_XEX9Ba": {
           "type": "ai_gen_block_3908ddc",
           "settings": {
-            "text_1": "solva",
-            "text_2": "solva",
-            "text_3": "solva",
-            "text_4": "",
-            "text_5": "",
-            "separator": "★",
+            "text_1": "VELTRIX",
+            "text_2": "VELTRIX",
+            "text_3": "VELTRIX",
+            "text_4": "VELTRIX",
+            "text_5": "VELTRIX",
+            "separator": "VELTRIX",
             "scroll_speed": 1,
             "direction": "left",
-            "background_color": "#b813c1",
+            "background_color": "#1c1d1d",
             "text_color": "#ffffff",
             "separator_color": "#ffffff",
             "font_size": 18,
@@ -147,24 +73,65 @@
       "name": "Marquee",
       "settings": {}
     },
-    "rich_text_icmLMW": {
-      "type": "rich-text",
+    "featured_product_MdVUL7": {
+      "type": "featured-product",
       "blocks": {
-        "page_yh9zjR": {
-          "type": "page",
+        "price_HrCDMk": {
+          "type": "price",
+          "settings": {}
+        },
+        "separator_LJ8gWG": {
+          "type": "separator",
+          "settings": {}
+        },
+        "variant_picker_htMGL8": {
+          "type": "variant_picker",
           "settings": {
-            "page_text": "about-us"
+            "variant_labels": true,
+            "picker_type": "button",
+            "color_swatches": false
+          }
+        },
+        "custom_cDHkmA": {
+          "type": "custom",
+          "settings": {
+            "code": "<div style=\"padding: 12px; text-align: left; background-color: #f9f9f9; font-size: 15px; border-radius: 12px; margin-top: 10px; margin-bottom: 10px; line-height: 1.6;\">\n<span style=\"font-weight: bold;\">🔍 Clear, Effortless Reading</span> – Enjoy enlarged, easy-to-read text with built-in magnification that reduces eye strain.<br><br>\n<span style=\"font-weight: bold;\">💡 Bright LED Illumination</span> – Read comfortably anytime with even, glare-free lighting that enhances visibility in low light.<br><br>\n<span style=\"font-weight: bold;\">📖 Lightweight & Portable</span> – Slim and easy to carry, perfect for reading books, newspapers, or documents anywhere.\n</div>"
+          }
+        },
+        "buy_buttons_ewpBLy": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": true
+          }
+        },
+        "description_waiYzK": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "is_tab": false
           }
         }
       },
       "block_order": [
-        "page_yh9zjR"
+        "price_HrCDMk",
+        "separator_LJ8gWG",
+        "variant_picker_htMGL8",
+        "custom_cDHkmA",
+        "buy_buttons_ewpBLy",
+        "description_waiYzK"
       ],
-      "name": "t:sections.rich-text.presets.rich_text.name",
+      "name": "t:sections.featured-product.presets.featured_product.name",
       "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "divider": false
+        "featured_product": "led-book-light-panel",
+        "divider": false,
+        "sku_enable": false,
+        "image_size": "medium",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_arrows": false,
+        "enable_video_looping": true,
+        "product_video_style": "muted"
       }
     },
     "blocks_AAEAd4": {
@@ -173,15 +140,15 @@
         "ai_gen_block_3908ddc_HUMMjT": {
           "type": "ai_gen_block_3908ddc",
           "settings": {
-            "text_1": "solva",
-            "text_2": "solva",
-            "text_3": "solva",
-            "text_4": "",
+            "text_1": "VELTRIX",
+            "text_2": "VELTRIX",
+            "text_3": "VELTRIX",
+            "text_4": "VELTRIX",
             "text_5": "",
-            "separator": "★",
+            "separator": "",
             "scroll_speed": 1,
             "direction": "left",
-            "background_color": "#b813c1",
+            "background_color": "#1c1d1d",
             "text_color": "#ffffff",
             "separator_color": "#ffffff",
             "font_size": 30,
@@ -199,43 +166,95 @@
       "name": "Marquee",
       "settings": {}
     },
+    "rich_text_dGrKXR": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_4XdqDP": {
+          "type": "heading",
+          "settings": {
+            "title": "ABOUT VELTRIX"
+          }
+        },
+        "text_cafzJr": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p> We’re passionate about bringing you smart, practical products that make everyday life easier and more enjoyable. From innovative reading tools to must-have essentials, we carefully select items that combine quality, convenience, and value.</p><p>Our mission is simple: to provide products you can trust, with a smooth and satisfying shopping experience every time. Thank you for choosing us!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_4XdqDP",
+        "text_cafzJr"
+      ],
+      "name": "t:sections.rich-text.presets.rich_text.name",
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "blocks_f6rx9V": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_3908ddc_CCfjUe": {
+          "type": "ai_gen_block_3908ddc",
+          "settings": {
+            "text_1": "BUY 2 GET FREE DELIVERY",
+            "text_2": "BUY 2 GET FREE DELIVERY",
+            "text_3": "BUY 2 GET FREE DELIVERY",
+            "text_4": "",
+            "text_5": "",
+            "separator": "",
+            "scroll_speed": 1,
+            "direction": "left",
+            "background_color": "#1c1d1d",
+            "text_color": "#ffffff",
+            "separator_color": "#ffffff",
+            "font_size": 30,
+            "font_weight": "500",
+            "text_transform": false,
+            "padding_vertical": 8,
+            "item_spacing": 30
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_3908ddc_CCfjUe"
+      ],
+      "name": "Marquee",
+      "settings": {}
+    },
     "faq_hd9KM6": {
       "type": "faq",
       "blocks": {
         "question_pYKp7U": {
           "type": "question",
           "settings": {
-            "title": "What is Solva?",
-            "text": "<p>Solva is a beauty brand focused on creating smart, portable, and easy-to-use hair styling tools designed for modern lifestyles.<br/></p>"
+            "title": "Are your products high quality?",
+            "text": "<p>Yes, we carefully select and test our products to ensure they meet our quality standards.</p>"
           }
         },
         "question_DFUDT9": {
           "type": "question",
           "settings": {
-            "title": "Where are Solva products designed?",
-            "text": "<p>Solva products are thoughtfully designed to combine performance, convenience, and style for everyday use.</p>"
+            "title": "Can I cancel my order?",
+            "text": "<p>Orders can be canceled within a short time after purchase. Please contact us as soon as possible for assistance.</p>"
           }
         },
         "question_dyVGRR": {
           "type": "question",
           "settings": {
-            "title": "Are Solva products safe to use?",
-            "text": "<p>Yes, safety is a priority. Our products are designed with user-friendly and protective features to ensure comfortable styling.</p>"
-          }
-        },
-        "question_nVnAWr": {
-          "type": "question",
-          "settings": {
-            "title": "How can I stay updated on new products?",
-            "text": "<p>Follow Solva on social media or subscribe to updates from your preferred shopping platform to stay informed about new launches and offers.</p>"
+            "title": "How can I contact customer support?",
+            "text": "<p>You can reach us anytime through our contact page or email, and we’ll be happy to assist you.</p>"
           }
         }
       },
       "block_order": [
         "question_pYKp7U",
         "question_DFUDT9",
-        "question_dyVGRR",
-        "question_nVnAWr"
+        "question_dyVGRR"
       ],
       "name": "t:sections.faq.presets.faq.name",
       "settings": {
@@ -260,20 +279,11 @@
             "title": "24/7 support",
             "text": ""
           }
-        },
-        "text_block_WQmyaC": {
-          "type": "text_block",
-          "settings": {
-            "icon": "sales-tag",
-            "title": "100 % safe",
-            "text": ""
-          }
         }
       },
       "block_order": [
         "text_block_B7LpAj",
-        "text_block_NkDaVz",
-        "text_block_WQmyaC"
+        "text_block_NkDaVz"
       ],
       "name": "Text columns with icons",
       "settings": {
@@ -289,11 +299,11 @@
   },
   "order": [
     "fading_images_gEXzF6",
-    "featured_collection_eLgELy",
-    "fading_images_mnQWUR",
     "blocks_R7BnNx",
-    "rich_text_icmLMW",
+    "featured_product_MdVUL7",
     "blocks_AAEAd4",
+    "rich_text_dGrKXR",
+    "blocks_f6rx9V",
     "faq_hd9KM6",
     "text_with_icons_jYRQxY"
   ]

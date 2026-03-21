@@ -10,11 +10,11 @@
 {
   "current": {
     "color_body_bg": "#ffffff",
-    "color_borders": "#b813c1",
-    "color_button": "#b813c1",
+    "color_borders": "#1c1d1d",
+    "color_button": "#1c1d1d",
     "color_button_text": "#ffffff",
-    "color_announcement": "#b813c1",
-    "color_footer": "#b813c1",
+    "color_announcement": "#1c1d1d",
+    "color_footer": "#1c1d1d",
     "color_footer_text": "#ffffff",
     "color_drawer_background": "#ffffff",
     "color_drawer_text": "#000000",
@@ -119,15 +119,16 @@
           "megamenu_eUaUer"
         ],
         "settings": {
-          "desktop_logo_width": 140,
-          "mobile_logo_width": 90,
+          "logo": "shopify://shop_images/IMG_3100_-_Majed_Hammoud__2___1_-removebg-preview.png",
+          "desktop_logo_width": 100,
+          "mobile_logo_width": 60,
           "main_menu_link_list": "main-menu",
           "main_menu_alignment": "center-left",
           "header_sticky": true,
           "sticky_index": true,
           "sticky_collection": false,
           "show_announcement": true,
-          "announcement_text": "Hot Sales during this month",
+          "announcement_text": "BUY 2 GET FREE DELIVERY",
           "announcement_link": "",
           "announcement_closable": false
         }
@@ -179,19 +180,11 @@
               "richtext": "",
               "container_width": 33
             }
-          },
-          "1494292481350": {
-            "type": "logo_social",
-            "settings": {
-              "desktop_logo_height": 50,
-              "container_width": 20
-            }
           }
         },
         "block_order": [
           "1494292485313",
-          "1494292487693",
-          "1494292481350"
+          "1494292487693"
         ],
         "settings": {
           "show_locale_selector": true,
@@ -212,19 +205,7 @@
         }
       }
     },
-    "content_for_index": [],
-    "blocks": {
-      "14060646107696862457": {
-        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-        "disabled": false,
-        "settings": {}
-      },
-      "5091004626459974968": {
-        "type": "shopify://apps/moose-whatsapp-chat-button/blocks/whatsapp/b77db749-c44a-4265-8135-8b842af1b111",
-        "disabled": false,
-        "settings": {}
-      }
-    }
+    "content_for_index": []
   },
   "presets": {
     "Classic": {
