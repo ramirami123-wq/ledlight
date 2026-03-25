@@ -123,7 +123,7 @@
       ],
       "name": "t:sections.featured-product.presets.featured_product.name",
       "settings": {
-        "featured_product": "led-book-light-panel",
+        "featured_product": "book-reading-light-1",
         "divider": false,
         "sku_enable": false,
         "image_size": "medium",
