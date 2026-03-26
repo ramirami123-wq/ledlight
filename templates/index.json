@@ -73,65 +73,16 @@
       "name": "Marquee",
       "settings": {}
     },
-    "featured_product_MdVUL7": {
-      "type": "featured-product",
-      "blocks": {
-        "price_HrCDMk": {
-          "type": "price",
-          "settings": {}
-        },
-        "separator_LJ8gWG": {
-          "type": "separator",
-          "settings": {}
-        },
-        "variant_picker_htMGL8": {
-          "type": "variant_picker",
-          "settings": {
-            "variant_labels": true,
-            "picker_type": "button",
-            "color_swatches": false
-          }
-        },
-        "custom_cDHkmA": {
-          "type": "custom",
-          "settings": {
-            "code": "<div style=\"padding: 12px; text-align: left; background-color: #f9f9f9; font-size: 15px; border-radius: 12px; margin-top: 10px; margin-bottom: 10px; line-height: 1.6;\">\n<span style=\"font-weight: bold;\">🔍 Clear, Effortless Reading</span> – Enjoy enlarged, easy-to-read text with built-in magnification that reduces eye strain.<br><br>\n<span style=\"font-weight: bold;\">💡 Bright LED Illumination</span> – Read comfortably anytime with even, glare-free lighting that enhances visibility in low light.<br><br>\n<span style=\"font-weight: bold;\">📖 Lightweight & Portable</span> – Slim and easy to carry, perfect for reading books, newspapers, or documents anywhere.\n</div>"
-          }
-        },
-        "buy_buttons_ewpBLy": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "surface_pickup_enable": true
-          }
-        },
-        "description_waiYzK": {
-          "type": "description",
-          "disabled": true,
-          "settings": {
-            "is_tab": false
-          }
-        }
-      },
-      "block_order": [
-        "price_HrCDMk",
-        "separator_LJ8gWG",
-        "variant_picker_htMGL8",
-        "custom_cDHkmA",
-        "buy_buttons_ewpBLy",
-        "description_waiYzK"
-      ],
-      "name": "t:sections.featured-product.presets.featured_product.name",
+    "featured_collection_bjVC9t": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.featured_collection.name",
       "settings": {
-        "featured_product": "book-reading-light-1",
-        "divider": false,
-        "sku_enable": false,
-        "image_size": "medium",
-        "product_zoom_enable": true,
-        "thumbnail_position": "beside",
-        "thumbnail_arrows": false,
-        "enable_video_looping": true,
-        "product_video_style": "muted"
+        "title": "Featured collection",
+        "home_featured_products": "all",
+        "per_row": 4,
+        "rows": 1,
+        "view_all": true,
+        "divider": false
       }
     },
     "blocks_AAEAd4": {
@@ -300,7 +251,7 @@
   "order": [
     "fading_images_gEXzF6",
     "blocks_R7BnNx",
-    "featured_product_MdVUL7",
+    "featured_collection_bjVC9t",
     "blocks_AAEAd4",
     "rich_text_dGrKXR",
     "blocks_f6rx9V",
