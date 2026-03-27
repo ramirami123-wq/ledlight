@@ -1,0 +1,405 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "custom_Q7AhEC": {
+          "type": "custom",
+          "settings": {
+            "code": "<style>\n.star-review-wrapper {\ndisplay: flex;\nalign-items: center;\ngap: 8px;\nflex-shrink: 0;\n}\n\n.star-icons svg {\nwidth: 20px;\nheight: 20px;\nfill: black; /* Your deep red color */\n}\n\n.review-text {\nfont-size: 16px;\nfont-weight: 500;\ncolor: #333;\nwhite-space: nowrap;\n}\n\n@media (max-width: 480px) {\n.star-review-wrapper {\nflex-direction: row;\njustify-content: center;\n}\n\n```\n.review-text {\n  font-size: 15px;\n}\n```\n\n}\n</style>\n\n<div class=\"star-review-wrapper\">\n<div class=\"star-icons\">\n<!-- 5 Rounded Stars -->\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n</div>\n<div class=\"review-text\">\n<strong>5</strong> by <strong>124+</strong> Customers\n</div>\n</div>"
+          }
+        },
+        "custom_knFWVE": {
+          "type": "custom",
+          "settings": {
+            "code": "<section class=\"sale-timer\" aria-label=\"Sale countdown timer\">\n  <style>\n    .sale-timer{\n      width:100%;\n      padding:22px 12px;\n      display:flex;\n      justify-content:center;\n      background:##ff85d0;\n      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;\n    }\n    .sale-timer__wrap{\n      text-align:center;\n    }\n    .sale-timer__label{\n      font-size:24px;\n      font-weight:500;\n      color:#111;\n      margin:0 0 14px 0;\n      line-height:1.1;\n    }\n\n    .sale-timer__row{\n      display:flex;\n      align-items:center;\n      justify-content:center;\n      gap:10px;\n    }\n\n    .sale-timer__box{\n      width:88px;\n      height:68px;\n      background:BLACK;\n      color:#fff;\n      border-radius:6px;\n      display:flex;\n      align-items:center;\n      justify-content:center;\n      font-size:34px;\n      font-weight:700;\n      letter-spacing:1px;\n      font-variant-numeric: tabular-nums;\n    }\n\n    .sale-timer__colon{\n      font-size:32px;\n      font-weight:700;\n      color:#ff2a2a;\n      line-height:1;\n      transform: translateY(-1px);\n      user-select:none;\n    }\n\n    @media (max-width:420px){\n      .sale-timer__label{ font-size:20px; }\n      .sale-timer__box{ width:72px; height:58px; font-size:30px; }\n      .sale-timer__colon{ font-size:28px; }\n      .sale-timer__row{ gap:8px; }\n    }\n  </style>\n\n  <div class=\"sale-timer__wrap\">\n    <div class=\"sale-timer__label\">Hurry! Sale ends in</div>\n\n    <div class=\"sale-timer__row\" role=\"timer\" aria-live=\"polite\">\n      <div class=\"sale-timer__box\" id=\"st-hours\">00</div>\n      <div class=\"sale-timer__colon\">:</div>\n      <div class=\"sale-timer__box\" id=\"st-mins\">00</div>\n      <div class=\"sale-timer__colon\">:</div>\n      <div class=\"sale-timer__box\" id=\"st-secs\">00</div>\n    </div>\n  </div>\n\n  <script>\n    (function () {\n      const durationHours = 12; // change if needed\n      const endAt = Date.now() + durationHours * 60 * 60 * 1000;\n\n      const h = document.getElementById(\"st-hours\");\n      const m = document.getElementById(\"st-mins\");\n      const s = document.getElementById(\"st-secs\");\n\n      const pad = n => String(n).padStart(2, \"0\");\n\n      function update(){\n        let diff = endAt - Date.now();\n        if(diff < 0) diff = 0;\n\n        const total = Math.floor(diff / 1000);\n        h.textContent = pad(Math.floor(total / 3600));\n        m.textContent = pad(Math.floor((total % 3600) / 60));\n        s.textContent = pad(total % 60);\n\n        if(diff === 0) clearInterval(timer);\n      }\n\n      update();\n      const timer = setInterval(update, 1000);\n    })();\n  </script>\n</section>"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "custom_Ytf84X": {
+          "type": "custom",
+          "settings": {
+            "code": "<div style=\"padding: 12px; text-align: left; background-color: #f9f9f9; font-size: 15px; border-radius: 12px; margin-top: 10px; margin-bottom: 10px; line-height: 1.6;\">\n<span style=\"font-weight: bold;\">🔍 Clear, Effortless Reading</span> – Enjoy enlarged, easy-to-read text with built-in magnification that reduces eye strain.<br><br>\n<span style=\"font-weight: bold;\">💡 Bright LED Illumination</span> – Read comfortably anytime with even, glare-free lighting that enhances visibility in low light.<br><br>\n<span style=\"font-weight: bold;\">📖 Lightweight & Portable</span> – Slim and easy to carry, perfect for reading books, newspapers, or documents anywhere.\n</div>"
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "color_swatches": false
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "surface_pickup_enable": false
+          }
+        },
+        "custom_MDraJF": {
+          "type": "custom",
+          "settings": {
+            "code": "<div style=\"padding: 12px; text-align: left; background-color: #f5f5f5; font-size: 15px; border-radius: 13px; margin-top: 12px; margin-bottom: 12px; display: flex; align-items: center;\"> \n    <span class=\"em\" style=\"margin-right: 8px;\">\n        <svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 -960 960 960\" width=\"24px\" fill=\"#545454\">\n            <path d=\"M240-160q-50 0-85-35t-35-85H40v-440q0-33 23.5-56.5T120-800h560v160h120l120 160v200h-80q0 50-35 85t-85 35q-50 0-85-35t-35-85H360q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T280-280q0-17-11.5-28.5T240-320q-17 0-28.5 11.5T200-280q0 17 11.5 28.5T240-240ZM120-360h32q17-18 39-29t49-11q27 0 49 11t39 29h272v-360H120v360Zm600 120q17 0 28.5-11.5T760-280q0-17-11.5-28.5T720-320q-17 0-28.5 11.5T680-280q0 17 11.5 28.5T720-240Zm-40-200h170l-90-120h-80v120ZM360-540Z\"/>\n        </svg> \n    </span>\n    <span>Order now to receive in <span id=\"delivery-dates\" style=\"font-weight: bold;\"></span></span>\n</div>\n\n<script>\n    document.addEventListener('DOMContentLoaded', function() {\n        var currentDate = new Date();\n\n        var minDeliveryDate = new Date();\n        minDeliveryDate.setDate(currentDate.getDate() + 5); // 5 days from now\n\n        var maxDeliveryDate = new Date();\n        maxDeliveryDate.setDate(currentDate.getDate() + 7); // 7 days from now\n\n        var formatDate = function(date) {\n            var monthNames = [\"January\", \"February\", \"March\", \"April\", \"May\", \"June\",\n              \"July\", \"August\", \"September\", \"October\", \"November\", \"December\"\n            ];\n            var day = date.getDate();\n            var monthIndex = date.getMonth();\n            return monthNames[monthIndex] + \" \" + day;\n        };\n\n        var deliverySpan = document.getElementById('delivery-dates');\n        deliverySpan.textContent = formatDate(minDeliveryDate) + ' - ' + formatDate(maxDeliveryDate);\n    });\n</script>"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": true
+          }
+        }
+      },
+      "block_order": [
+        "custom_Q7AhEC",
+        "custom_knFWVE",
+        "price",
+        "custom_Ytf84X",
+        "separator",
+        "variant_picker",
+        "buy_buttons",
+        "custom_MDraJF",
+        "description"
+      ],
+      "settings": {
+        "sku_enable": false,
+        "image_size": "medium",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_arrows": false,
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "sub": {
+      "type": "product-full-width",
+      "disabled": true,
+      "settings": {
+        "max_width": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "You may also like",
+        "related_count": 5
+      }
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "disabled": true,
+      "settings": {}
+    },
+    "text_and_image_nKKtHN": {
+      "type": "text-and-image",
+      "name": "t:sections.text-and-image.presets.image_with_text.name",
+      "settings": {
+        "image": "shopify://shop_images/b2_30e5f4b5-de97-498b-b49b-d37499126f21.png",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "Enhanced Reading Experience",
+        "text": "<p>Enjoy clear, magnified text with built-in LED lighting that makes reading easier in any environment. It helps reduce eye strain and allows you to read comfortably for longer periods.<br/><br/></p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "blocks_iny3MV": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_3908ddc_RNy3Lb": {
+          "type": "ai_gen_block_3908ddc",
+          "settings": {
+            "text_1": "Reading should feel effortless — this makes every word clear and comfortable.",
+            "text_2": "Reading should feel effortless — this makes every word clear and comfortable.",
+            "text_3": "Reading should feel effortless — this makes every word clear and comfortable.",
+            "text_4": "Reading should feel effortless — this makes every word clear and comfortable.",
+            "text_5": "Reading should feel effortless — this makes every word clear and comfortable.",
+            "separator": "Reading should feel effortless — this makes every word clear and comfortable.",
+            "scroll_speed": 1,
+            "direction": "left",
+            "background_color": "#1c1d1d",
+            "text_color": "#ffffff",
+            "separator_color": "#ffffff",
+            "font_size": 18,
+            "font_weight": "500",
+            "text_transform": false,
+            "padding_vertical": 16,
+            "item_spacing": 40
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_3908ddc_RNy3Lb"
+      ],
+      "name": "Marquee",
+      "settings": {}
+    },
+    "text_and_image_xTR4bz": {
+      "type": "text-and-image",
+      "name": "t:sections.text-and-image.presets.image_with_text.name",
+      "settings": {
+        "image": "shopify://shop_images/b1_d3b51754-01e1-43f2-b90e-d135a667ab25.png",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "Why You'll Love It",
+        "text": "<p><br/>Lightweight and easy to use, it’s perfect for reading books, newspapers, or documents anytime, anywhere. Whether at home or on the go, it gives you a clearer, brighter reading experience.<br/><br/></p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "blocks_AqrVRP": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_3908ddc_ky64qy": {
+          "type": "ai_gen_block_3908ddc",
+          "settings": {
+            "text_1": "Small in size, powerful in style—your perfect hair companion.”",
+            "text_2": "A brighter, clearer way to enjoy your favorite books anytime, anywhere.",
+            "text_3": "A brighter, clearer way to enjoy your favorite books anytime, anywhere.",
+            "text_4": "A brighter, clearer way to enjoy your favorite books anytime, anywhere.",
+            "text_5": "",
+            "separator": "",
+            "scroll_speed": 1,
+            "direction": "left",
+            "background_color": "#1c1d1d",
+            "text_color": "#ffffff",
+            "separator_color": "#ffffff",
+            "font_size": 18,
+            "font_weight": "500",
+            "text_transform": false,
+            "padding_vertical": 16,
+            "item_spacing": 40
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_3908ddc_ky64qy"
+      ],
+      "name": "Marquee",
+      "settings": {}
+    },
+    "1773923574978f8100": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_c036dd9_w8KPJH": {
+          "type": "ai_gen_block_c036dd9",
+          "settings": {
+            "heading": "Why choose us?",
+            "feature_column_label": "Features",
+            "us_column_label": "Us",
+            "others_column_label": "Others",
+            "feature_1": "Clear magnification for easy, comfortable reading",
+            "feature_1_us": "check",
+            "feature_1_others": "cross",
+            "feature_2": "Carefully selected, high-quality products",
+            "feature_2_us": "check",
+            "feature_2_others": "cross",
+            "feature_3": "Smooth and secure shopping experience",
+            "feature_3_us": "check",
+            "feature_3_others": "cross",
+            "feature_4": "Built-in LED lighting for use in any environment",
+            "feature_4_us": "check",
+            "feature_4_others": "cross",
+            "feature_5": "",
+            "feature_5_us": "check",
+            "feature_5_others": "cross",
+            "feature_6": "",
+            "feature_6_us": "check",
+            "feature_6_others": "cross",
+            "feature_7": "",
+            "feature_7_us": "check",
+            "feature_7_others": "cross",
+            "feature_8": "",
+            "feature_8_us": "check",
+            "feature_8_others": "cross",
+            "desktop_width_percent": 100,
+            "padding": 30,
+            "border_radius": 8,
+            "cell_padding": 16,
+            "border_width": 1,
+            "heading_size": 28,
+            "heading_spacing": 25,
+            "header_font_size": 16,
+            "text_size": 15,
+            "icon_size": 24,
+            "background_color": "#ffffff",
+            "heading_color": "#000000",
+            "table_background": "#ffffff",
+            "header_background": "#f5f5f5",
+            "header_text_color": "#000000",
+            "us_column_background": "#1c1d1d",
+            "us_column_text_color": "#ffffff",
+            "us_cell_background": "#1c1d1d",
+            "text_color": "#000000",
+            "border_color": "#e0e0e0",
+            "checkmark_color": "#00a651",
+            "cross_color": "#d82c0d"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_c036dd9_w8KPJH"
+      ],
+      "settings": {}
+    },
+    "faq_Rhg6PN": {
+      "type": "faq",
+      "blocks": {
+        "question_A4WHBe": {
+          "type": "question",
+          "settings": {
+            "title": "How does the product work?",
+            "text": "<p>\\It uses built-in magnification and LED lighting to make text clearer and easier to read, reducing eye strain.</p>"
+          }
+        },
+        "question_gPiKbW": {
+          "type": "question",
+          "settings": {
+            "title": "Is it suitable for all ages?",
+            "text": "<p><br/>Yes! It’s perfect for anyone who wants a more comfortable reading experience, especially for small print.<br/><br/></p>"
+          }
+        },
+        "question_U4BcYJ": {
+          "type": "question",
+          "settings": {
+            "title": "Can I use it with any book?",
+            "text": "<p>Absolutely! It works with books, newspapers, magazines, and even documents.</p>"
+          }
+        },
+        "question_t9t4B3": {
+          "type": "question",
+          "settings": {
+            "title": "Is it portable?",
+            "text": "<p>Yes, it’s lightweight and compact, making it easy to carry and use anywhere.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_A4WHBe",
+        "question_gPiKbW",
+        "question_U4BcYJ",
+        "question_t9t4B3"
+      ],
+      "name": "t:sections.faq.presets.faq.name",
+      "settings": {
+        "title": "FAQs"
+      }
+    },
+    "1774096866a9981fae": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_pnMxCQ": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "real_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_pnMxCQ"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "1772548012e975415b": {
+      "type": "apps",
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "text_with_icons_cDxdFz": {
+      "type": "text-with-icons",
+      "blocks": {
+        "text_block_L7WRGr": {
+          "type": "text_block",
+          "settings": {
+            "icon": "truck",
+            "title": "Delivery All Over Lebanon",
+            "text": ""
+          }
+        },
+        "text_block_xB7xiA": {
+          "type": "text_block",
+          "settings": {
+            "icon": "chat",
+            "title": "24/7 Support",
+            "text": ""
+          }
+        },
+        "text_block_3zJHiQ": {
+          "type": "text_block",
+          "settings": {
+            "icon": "sales-tag",
+            "title": "100% Safe",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_L7WRGr",
+        "text_block_xB7xiA",
+        "text_block_3zJHiQ"
+      ],
+      "name": "Text columns with icons",
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "desktop_columns_per_row": 3,
+        "icon_color": "#000000",
+        "button_label": "",
+        "button_link": "",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "sub",
+    "product-recommendations",
+    "collection-return",
+    "text_and_image_nKKtHN",
+    "blocks_iny3MV",
+    "text_and_image_xTR4bz",
+    "blocks_AqrVRP",
+    "1773923574978f8100",
+    "faq_Rhg6PN",
+    "1774096866a9981fae",
+    "1772548012e975415b",
+    "text_with_icons_cDxdFz"
+  ]
+}
