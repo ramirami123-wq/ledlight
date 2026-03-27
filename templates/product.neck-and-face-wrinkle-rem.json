@@ -31,7 +31,7 @@
         "custom_Ytf84X": {
           "type": "custom",
           "settings": {
-            "code": "<div style=\"padding: 12px; text-align: left; background-color: #f9f9f9; font-size: 15px; border-radius: 12px; margin-top: 10px; margin-bottom: 10px; line-height: 1.6;\">\n<span style=\"font-weight: bold;\">🔍 Clear, Effortless Reading</span> – Enjoy enlarged, easy-to-read text with built-in magnification that reduces eye strain.<br><br>\n<span style=\"font-weight: bold;\">💡 Bright LED Illumination</span> – Read comfortably anytime with even, glare-free lighting that enhances visibility in low light.<br><br>\n<span style=\"font-weight: bold;\">📖 Lightweight & Portable</span> – Slim and easy to carry, perfect for reading books, newspapers, or documents anywhere.\n</div>"
+            "code": "<div style=\"padding: 12px; text-align: left; background-color: #f9f9f9; font-size: 15px; border-radius: 12px; margin-top: 10px; margin-bottom: 10px; line-height: 1.6;\">\n<span style=\"font-weight: bold;\">✨ Advanced Skin Care Technology</span> – Combines LED photon therapy, ultrasonic vibration, and micro-current to help rejuvenate and firm your skin.<br><br>\n<span style=\"font-weight: bold;\">💆 Deep Cleansing & Absorption</span> – Effectively removes impurities while enhancing the absorption of skincare products for better results.<br><br>\n<span style=\"font-weight: bold;\">🔥 Relaxing Heating Function</span> – Gentle warmth helps open pores, improve circulation, and provide a soothing facial massage experience.\n</div>"
           }
         },
         "separator": {
@@ -112,11 +112,11 @@
       "type": "text-and-image",
       "name": "t:sections.text-and-image.presets.image_with_text.name",
       "settings": {
-        "image": "shopify://shop_images/b2_30e5f4b5-de97-498b-b49b-d37499126f21.png",
+        "image": "shopify://shop_images/651ec73b92622132626511b4-leotop-electric-face-massager-beauty.jpg",
         "image_width": 700,
         "subtitle": "",
-        "title": "Enhanced Reading Experience",
-        "text": "<p>Enjoy clear, magnified text with built-in LED lighting that makes reading easier in any environment. It helps reduce eye strain and allows you to read comfortably for longer periods.<br/><br/></p>",
+        "title": "Deep Clean",
+        "text": "<p>Remove impurities while boosting absorption for a smoother, healthier-looking glow.<br/></p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
@@ -131,12 +131,12 @@
         "ai_gen_block_3908ddc_RNy3Lb": {
           "type": "ai_gen_block_3908ddc",
           "settings": {
-            "text_1": "Reading should feel effortless — this makes every word clear and comfortable.",
-            "text_2": "Reading should feel effortless — this makes every word clear and comfortable.",
-            "text_3": "Reading should feel effortless — this makes every word clear and comfortable.",
-            "text_4": "Reading should feel effortless — this makes every word clear and comfortable.",
-            "text_5": "Reading should feel effortless — this makes every word clear and comfortable.",
-            "separator": "Reading should feel effortless — this makes every word clear and comfortable.",
+            "text_1": "Clean, lift, glow.",
+            "text_2": "Clean, lift, glow.",
+            "text_3": "Clean, lift, glow.",
+            "text_4": "Clean, lift, glow.",
+            "text_5": "Clean, lift, glow.",
+            "separator": "Clean, lift, glow.",
             "scroll_speed": 1,
             "direction": "left",
             "background_color": "#1c1d1d",
@@ -161,11 +161,11 @@
       "type": "text-and-image",
       "name": "t:sections.text-and-image.presets.image_with_text.name",
       "settings": {
-        "image": "shopify://shop_images/b1_d3b51754-01e1-43f2-b90e-d135a667ab25.png",
+        "image": "shopify://shop_images/s-l1200.jpg",
         "image_width": 700,
         "subtitle": "",
-        "title": "Why You'll Love It",
-        "text": "<p><br/>Lightweight and easy to use, it’s perfect for reading books, newspapers, or documents anytime, anywhere. Whether at home or on the go, it gives you a clearer, brighter reading experience.<br/><br/></p>",
+        "title": "Advanced Care",
+        "text": "<p>Enhance your skincare routine with gentle technology that helps firm and refresh your skin.</p><p></p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
@@ -180,10 +180,10 @@
         "ai_gen_block_3908ddc_ky64qy": {
           "type": "ai_gen_block_3908ddc",
           "settings": {
-            "text_1": "Small in size, powerful in style—your perfect hair companion.”",
-            "text_2": "A brighter, clearer way to enjoy your favorite books anytime, anywhere.",
-            "text_3": "A brighter, clearer way to enjoy your favorite books anytime, anywhere.",
-            "text_4": "A brighter, clearer way to enjoy your favorite books anytime, anywhere.",
+            "text_1": "Spa results at home.",
+            "text_2": "Spa results at home.",
+            "text_3": "Spa results at home.",
+            "text_4": "Spa results at home.",
             "text_5": "",
             "separator": "",
             "scroll_speed": 1,
@@ -216,16 +216,16 @@
             "feature_column_label": "Features",
             "us_column_label": "Us",
             "others_column_label": "Others",
-            "feature_1": "Clear magnification for easy, comfortable reading",
+            "feature_1": "Deep Cleansing",
             "feature_1_us": "check",
             "feature_1_others": "cross",
-            "feature_2": "Carefully selected, high-quality products",
+            "feature_2": "Heating Function",
             "feature_2_us": "check",
             "feature_2_others": "cross",
-            "feature_3": "Smooth and secure shopping experience",
+            "feature_3": "Skin Firming",
             "feature_3_us": "check",
             "feature_3_others": "cross",
-            "feature_4": "Built-in LED lighting for use in any environment",
+            "feature_4": "Ease of Use",
             "feature_4_us": "check",
             "feature_4_others": "cross",
             "feature_5": "",
@@ -277,29 +277,36 @@
         "question_A4WHBe": {
           "type": "question",
           "settings": {
-            "title": "How does the product work?",
-            "text": "<p>\\It uses built-in magnification and LED lighting to make text clearer and easier to read, reducing eye strain.</p>"
+            "title": "How often should I use it?",
+            "text": "<p>Use 3–5 times per week for best results, depending on your skin type.</p><p></p>"
           }
         },
         "question_gPiKbW": {
           "type": "question",
           "settings": {
-            "title": "Is it suitable for all ages?",
-            "text": "<p><br/>Yes! It’s perfect for anyone who wants a more comfortable reading experience, especially for small print.<br/><br/></p>"
+            "title": "Is it safe for all skin types?",
+            "text": "<p>Yes, it’s designed to be gentle and suitable for most skin types.</p><p></p>"
           }
         },
         "question_U4BcYJ": {
           "type": "question",
           "settings": {
-            "title": "Can I use it with any book?",
-            "text": "<p>Absolutely! It works with books, newspapers, magazines, and even documents.</p>"
+            "title": "When will I see results?",
+            "text": "<p>Some users notice smoother skin after a few uses, with better results over time.</p><p></p>"
           }
         },
         "question_t9t4B3": {
           "type": "question",
           "settings": {
-            "title": "Is it portable?",
-            "text": "<p>Yes, it’s lightweight and compact, making it easy to carry and use anywhere.</p>"
+            "title": "Can I use it with my skincare products?",
+            "text": "<p>Yes, it works best with serums or creams to improve absorption.</p><p></p>"
+          }
+        },
+        "question_9zTdBN": {
+          "type": "question",
+          "settings": {
+            "title": "How long should each session be?",
+            "text": "<p>About 5–10 minutes per session is enough for effective results.</p>"
           }
         }
       },
@@ -307,7 +314,8 @@
         "question_A4WHBe",
         "question_gPiKbW",
         "question_U4BcYJ",
-        "question_t9t4B3"
+        "question_t9t4B3",
+        "question_9zTdBN"
       ],
       "name": "t:sections.faq.presets.faq.name",
       "settings": {
